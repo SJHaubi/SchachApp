@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Scheckers</string>
+    <string name="hauptmenu_solo">Solo Scheckers</string>
+    <string name="hauptmenu_duo">Doppel Scheckers</string>
+    <string name="hauptmenu_ueberschrift" translatable="false">Hauptmenu Scheckers</string>
+    <string name="Main_Button_1"><b>Spieler 1</b></string>
+    <string name="Main_Button_2"><b>Spieler 2</b></string>
+    <string name="loadingscreen_MP" translatable="false">Gras \u0026 Sattler Unternehmens \u0026 Medien Beratung sowie SJHaubi</string>
+    <string name="Doppel_mitte">Doppelscheckers</string>
+    <string name="Bmbs">Bombenschach</string>
+    <string name="DZmdFw">Dein Zug muss die Feldfarbe wechseln (gilt nicht für Läufer, Bauern schlagen auch normal)</string>
+    <string name="WbSg">Weiß beginnt, Schwarz gewinnt</string>
+    <string name="HPPP">Hoppel Poppel</string>
+    <string name="DhZt">Drehendes Zentrum</string>
+    <string name="KotH">King of the Hill</string>
+    <string name="DmS">3 mal Schach</string>
+    <string name="Fidwss">Figuren handeln wie dort, wo sie stehen</string>
+    <string name="KuDdnr">König und Dame dürfen nicht rückwärts</string>
+    <string name="nS">normales Schach</string>
+    <string name="title_activity_soloscheckers_soben_wunten" translatable="false">SoloscheckersSobenWuntenActivity</string>
+    <string name="title_activity_scrolling_activity" translatable="false">ScrollingActivity</string>
+    <string name="und">und</string>
+    <string name="dopDhZt">"Du hast 2 mal Drehendes Zentrum, drehe also 2 mal!"</string>
+    <string name="dopDmS">"Du hast 2 mal '3mal Schach', daher musst du 6 mal Schach setzen!"</string>
+    <string name="Farbe1" translatable="false">#41B6FB</string>
+    <string name="Farbe2" translatable="false">#F23D58</string>
+    <string name="Farbe3" translatable="false">#00be34</string>
+    <string name="Farbe4" translatable="false">#F4E731</string>
+    <string name="RestartAppSettings">Bitte starte Scheckers neu!</string>
+    <string name="Textfarbe">Textfarbe</string>
+    <string name="Showtime">Kürzere Anzeigezeit</string>
+
+    <string name="infomodes" translatable="false">
+
+
+
+        <font color='#41B6FB'><b>"1. Bombenschach"</b></font>\n\n
+
+        "Schlägst du eine Figur deines Gegners, wird in einem 3x3 Bereich alle Figuren vom Spielfeld entfernt, auch die schlagende Figur wird entfernt (sie "explodieren").\n"\n
+
+        <font color='#41B6FB'><b>"2. Dein Zug muss die Feldfarbe wechseln"</b></font>\n\n
+
+        "Jede Figur muss mit seinem Zug die Feldfarbe wechseln. Dies gilt nicht für den Läufer, sowie den Schlagzug des Bauern.\n"\n
+
+        <font color='#41B6FB'><b>"3. Weiß beginnt, Schwarz gewinnt"</b></font>\n\n
+
+        "Weiß beginnt das Spiel, Schwarz gewinnt daraufhin das Spiel.\n"\n
+
+        <font color='#41B6FB'><b>"4. Hoppel Poppel"</b></font>\n\n
+
+        "Hierbei verändert sich die Spielweise der Läufer und Springer. Läufer schlagen wie Springer, ziehen jedoch wie Läufer. Springer schlagen wie Läufer, ziehen aber wie Springer."\n\n
+
+        <font color='#41B6FB'><b>"5. Drehendes Zentrum"</b></font>\n\n
+
+        "Hierbei dreht sich das Zentrum nach jedem deiner Züge im Uhrzeigersinn.\n"\n
+
+        <font color='#41B6FB'><b>"6. King of the Hill"</b></font>\n\n
+
+        "Sofern dein König das Zentrum erreicht, gewinnst du das Spiel. Du kannst aber auch gewinnen, indem du den gegnerischen König Matt setzt."\n\n
+
+        <font color='#41B6FB'><b>"7. 3x Schach"</b></font>\n\n
+
+        "Um zu gewinnen musst du 3x mal Schach setzen, wichtig hierbei ist es, bei jedem Schach-setzen, laut die Anzahl der bisher gezählten Schachs dem anderen Mitspieler mitzuteilen."\n\n
+
+        <font color='#41B6FB'><b>"8. Figuren handeln wie dort, wo sie stehen"</b></font>\n\n
+
+        "Deine Figuren ändern ihre Zieh- &amp; Schlagart je nachdem auf welcher Linie sie stehen. So ziehen &amp; schlagen Figuren auf der a &amp; h-Linie wie Türme, auf der b &amp; g-Linie wie Springer, auf der c &amp; f-Linie wie Läufer, auf der d-Linie wie eine Dame &amp; auf der e-Linie wie ein König. Die Bauern &amp; dein König ziehen &amp; schlagen normal, unabhängig von deiner Linie.\n\n"
+
+        <font color='#41B6FB'><b>"9. König und Dame dürfen nicht rückwärts"</b></font>\n\n
+
+        "Deine Dame &amp; König dürfen nicht rückwärts, wenn dein König keine Felder mehr hat, ist er Matt und du verlierst.\n"\n
+
+        <font color='#41B6FB'><b>"10. normales Schach"</b></font>\n\n
+
+        "Du spielst normales Schach ohne spezielle Fähigkeit."
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="reset_button">reset Button</string>
+    <string name="set_settings">Einstellungen</string>
+    <string name="set_fun_standard">Fun-Modus</string>
+    <string name="set_sound">Sound</string>
+    <string name="set_dark_mode">Dunkler Modus</string>
+    <string name="set_credits">Credits</string>
+
+
+</resources>

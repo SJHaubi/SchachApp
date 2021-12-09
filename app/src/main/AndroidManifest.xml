@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="de.mstransgermany.schachapp">
+
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_logo_2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_2_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".infomodesdialoge"
+            android:exported="true"
+
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog"
+
+            />
+        <activity
+            android:name=".doppelscheckers_swwo"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".infomodes"
+            android:exported="true" />
+        <activity
+            android:name=".SoloscheckersSobenWuntenActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Einstellungen"
+            android:exported="true"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Doppelscheckers"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity android:name=".haupt_menu"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loadingscreen"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".doppelscheckers_swwo">
+
+    <ImageView
+        android:id="@+id/schwarz_oben"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:contentDescription="@string/app_name"
+        android:rotation="180"
+        android:src="@drawable/ic_weie_seite_klein_neu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_weie_seite_klein_neu" />
+
+
+
+    <ImageButton
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_3"
+        app:layout_constraintBottom_toTopOf="@+id/feld_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/schwarz_oben"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_popup_sync"
+        app:tint="@color/textColor" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button_reset"
+        app:layout_constraintTop_toBottomOf="@+id/schwarz_oben"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        app:tint="@color/textColor" />
+
+
+    <Button
+        android:id="@+id/feld_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+        android:clickable="true"
+        android:contextClickable="true"
+
+        android:rotation="180"
+        android:text="@string/Main_Button_1"
+        android:textColor="@color/textColor"
+
+        android:textSize="36sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/feld_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_reset"
+        tools:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/feld_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:clickable="true"
+        android:contextClickable="true"
+        android:text="@string/Main_Button_2"
+        android:textColor="@color/textColor"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/weis_unten"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feld_1" />
+
+    <ImageView
+        android:id="@+id/weis_unten"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:contentDescription="@string/app_name"
+        android:rotation="180"
+        android:src="@drawable/ic_schwarze_seite_klein_neu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/ic_schwarze_seite_klein_neu"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

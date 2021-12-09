@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scheckers</string>
+    <string name="Main_Button_1">Spieler 1</string>
+    <string name="Main_Button_2">Spieler 2</string>
+    <string name="hauptmenu_duo">Doppelscheckers</string>
+    <string name="Doppel_mitte">Doppel Scheckers</string>
+    <string name="Bmbs">Bombenschach</string>
+    <string name="HPPP">Hoppel Poppel</string>
+    <string name="DhZt">Drehendes Zentrum</string>
+    <string name="KotH">King of the Hill</string>
+    <string name="DmS">3 mal Schach</string>
+    <string name="nS">normales Schach</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="set_settings">Einstellungen</string>
+    <string name="set_fun_standard">Spaß-Modus</string>
+    <string name="set_sound">Sound</string>
+    <string name="set_dark_mode">Dunkler Modus</string>
+    <string name="set_credits">Credits</string>
+    <string name="KuDdnr">König und Dame dürfen nicht rückwärts</string>
+    <string name="dopDhZt">Du hast 2 mal Drehendes Zentrum, drehe also 2 mal!</string>
+    <string name="dopDmS">Du hast 2 mal \'3mal Schach\', daher musst du 6 mal Schach setzen!</string>
+    <string name="und">und</string>
+    <string name="Fidwss">Figuren handeln wie dort, wo sie stehen</string>
+    <string name="WbSg">Weiß beginnt, Schwarz gewinnt</string>
+    <string name="DZmdFw">Dein Zug muss die Feldfarbe wechseln (gilt nicht für Läufer, Bauern schlagen auch normal)</string>
+    <string name="hauptmenu_solo">Solo Scheckers</string>
+    <string name="reset_button">Neustartbutton</string>
+    <string name="RestartAppSettings">Bitte starte Scheckers neu!</string>
+    <string name="Textfarbe">Textfarbe</string>
+    <string name="Showtime">Kürzere Anzeigezeit</string>
+</resources>
